@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer type="module" src="js/main.js"></script>
+    <title>Weather App</title>
+  </head>
+
+  <body>
+    <main>
+      <section>
+          <form class="cities">
+            <img id="icon" src="https://openweathermap.org/img/wn/02n@2x.png" alt="tiempo">
+            <input
+            type="text"
+            placeholder="🏙 a city here..."
+            value="París"
+            />
+            <small></small>
+            <input type="submit" value="check weather" />
+            
+            
+        </form>
+      </section>
+      <section class="weather">
+         
+        <h2 id="cityweather"></h2>
+        <p id="description"></p>
+        <p id="humidity"></p>
+        <p id="temp"></p>
+        <p id="feels_like"></p>
+        <p id="wind"></p>
+      </section>
+    </main>
+
+  </body>
+</html>

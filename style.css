@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  /* border: 1px solid rgb(223, 212, 212); */
+  font-size:1.1rem;
+}
+body {
+    background: #336ac8;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  background-color: #8242ff;
+}
+.cities {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    
+}
+small {
+    width:10rem;
+    font-size: .7rem;
+    color: darkblue;
+    font-weight: bold;
+    text-align: right;
+}
+img {
+    align-self: center;
+}
+input{
+    width: 10rem;
+    padding: .6rem;
+    background-color: #ba72ff;
+    border:none;
+    font-weight: bold;
+    text-align: center;
+}
+input[type="text"]:focus {
+    outline-color:rgb(201, 8, 207);
+    
+    color:rgb(148, 11, 11);
+    background-color: #cca6f0;    
+    transition: background-color .4s ease-in-out;
+}
+/* input[type="text"]:change{
+    transition: background-color .4s ease-in-out;
+
+} */
+input[type="submit"] {
+    background-color: #4608cb;
+    padding:.8rem;
+    color:white;
+    border:none;
+    font-size: .8rem;
+    transition: background-color .2s ease-in-out;
+}
+input[type="submit"]:hover {
+    background-color: #340c8a;
+    border:none;
+}
+input[type="submit"]:active{
+    color:#cdc4e0;
+    background-color: #4608cb;
+    
+}
+.weather{
+    color: white;
+    margin:.5rem
+
+}
+.weather *{
+    margin:.3rem;
+}
+.weather *::first-letter{
+    text-transform: uppercase;
+
+}
